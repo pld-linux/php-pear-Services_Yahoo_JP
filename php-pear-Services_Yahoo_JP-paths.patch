@@ -1,0 +1,55 @@
+--- Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/category.php~	2008-05-18 10:26:21.132556615 +0200
++++ Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/category.php	2008-05-18 10:31:57.171954548 +0200
+@@ -21,7 +21,7 @@
+  * @link      http://phpize.net
+  */
+ 
+-require_once 'AbstractAuction.php';
++require_once 'Services/Yahoo/JP/Auction/AbstractAuction.php';
+ 
+ /**
+  * Services_Yahoo_JP_Auction_category
+--- Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/exhibit.php~	2008-05-18 10:26:21.132556615 +0200
++++ Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/exhibit.php	2008-05-18 10:32:12.816035758 +0200
+@@ -21,7 +21,7 @@
+  * @link      http://phpize.net
+  */
+ 
+-require_once 'AbstractAuction.php';
++require_once 'Services/Yahoo/JP/Auction/AbstractAuction.php';
+ 
+ /**
+  * Services_Yahoo_JP_Auction_exhibit
+--- Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/goods.php~	2008-05-18 10:26:21.145890584 +0200
++++ Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/Auction/goods.php	2008-05-18 10:32:29.140149476 +0200
+@@ -21,7 +21,7 @@
+  * @link      http://phpize.net
+  */
+ 
+-require_once 'AbstractAuction.php';
++require_once 'Services/Yahoo/JP/Auction/AbstractAuction.php';
+ 
+ /**
+  * Services_Yahoo_JP_Auction_goods
+--- Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/MA/parse.php~	2008-05-18 10:26:21.155891061 +0200
++++ Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/MA/parse.php	2008-05-18 10:33:24.549465027 +0200
+@@ -21,7 +21,7 @@
+  * @link      http://phpize.net
+  */
+ 
+-require_once 'AbstractMA.php';
++require_once 'Services/Yahoo/JP/MA/AbstractMA.php';
+ 
+ /**
+  * Services_Yahoo_JP_MA_parse
+--- Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/News/topics.php~	2008-05-18 10:26:21.179225514 +0200
++++ Services_Yahoo_JP-0.1.0/usr/share/pear/Services/Yahoo/JP/News/topics.php	2008-05-18 10:35:15.041413837 +0200
+@@ -21,7 +21,7 @@
+  * @link      http://phpize.net
+  */
+ 
+-require_once 'AbstractNews.php';
++require_once 'Services/Yahoo/JP/News/AbstractNews.php';
+ 
+ /**
+  * Services_Yahoo_JP_News_topics
