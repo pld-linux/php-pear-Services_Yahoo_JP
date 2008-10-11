@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - WebServices for Yahoo!JAPAN
 Summary(pl.UTF-8):	%{_pearname} - WebServices dla Yahoo!JAPAN
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	2
+Version:	0.1.1
+Release:	1
 License:	php
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e025e48fc56bac13c8712db07c80ff3d
+# Source0-md5:	5513e89d489262987a62d5fcade900dd
 Patch0:		%{name}-paths.patch
 URL:		http://pear.php.net/package/Services_Yahoo_JP/
 BuildRequires:	php-pear-PEAR
