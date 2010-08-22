@@ -14,6 +14,7 @@ Patch0:		%{name}-paths.patch
 URL:		http://pear.php.net/package/Services_Yahoo_JP/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-PEAR-core >= 1:1.3.5
 Requires:	php-pear-Services_Yahoo >= 0.0.1
