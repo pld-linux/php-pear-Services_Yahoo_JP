@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Services_Yahoo_JP
 Summary:	%{_pearname} - WebServices for Yahoo!JAPAN
